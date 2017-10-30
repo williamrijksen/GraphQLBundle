@@ -1,0 +1,9 @@
+overblog_graphql_playground:
+    path: /playground
+    defaults:
+        _controller: OverblogGraphQLBundle:Playground:index
+
+overblog_graphql_playground_multiple:
+    path: /playground/{schemaName}
+    defaults:
+        _controller: OverblogGraphQLBundle:Playground:index
